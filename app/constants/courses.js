@@ -1,0 +1,163 @@
+/* courseImg, courseImgalt,link, tag,title,lesson,duration,instractorName,instractorphoto,price*/
+
+import {
+  autocad,
+  computer,
+  course1,
+  course10,
+  course2,
+  course3,
+  course4,
+  course5,
+  course6,
+  course7,
+  course8,
+  course9,
+  courseweb,
+  instractor1,
+  instractor10,
+  instractor3,
+  instractor4,
+  instractor5,
+  instractor6,
+  instractor7,
+  instractor8,
+  instractor9,
+} from "@/public";
+
+import { instractor } from "./instractor";
+
+export const courses = [
+  {
+    courseImg: course1,
+    courseImgalt: "office",
+
+    tag: "Office Application",
+    tagbg: "bg-pink-800",
+    title: "কম্পিউটার অফিস এপ্লিকেশন",
+    lesson: 15,
+    duration: "3",
+    instractorName: instractor[5].name,
+    instractorphoto: instractor6,
+    price: 4000,
+  },
+  {
+    courseImg: course2,
+    courseImgalt: "graphics",
+
+    tag: "Graphics Design",
+    tagbg: "bg-rose-800",
+    title: "গ্রাফিক্স ডিজাইন",
+    lesson: 15,
+    duration: "3",
+    instractorName: instractor[3].name,
+    instractorphoto: instractor4,
+    price: 10000,
+  },
+  {
+    courseImg: course3,
+    courseImgalt: "digitalmarketing",
+
+    tag: "Digital Marketing",
+    tagbg: "bg-sky-900",
+    title: "ডিজিটাল মার্কেটিং",
+    lesson: 10,
+    duration: "3",
+    instractorName: instractor[2].name,
+    instractorphoto: instractor3,
+    price: 10000,
+  },
+
+  {
+    courseImg: course4,
+    courseImgalt: "autocad",
+
+    tag: "Auto Cad",
+    tagbg: "bg-purple-600",
+    title: "অটোক্যাড",
+    lesson: 10,
+    duration: "3",
+    instractorName: instractor[0].name,
+    instractorphoto: instractor1,
+    price: 10000,
+  },
+  {
+    courseImg: course5,
+    courseImgalt: "driving",
+
+    tag: "Driving",
+    tagbg: "bg-pink-600",
+    title: "ড্রাইভিং কাম অটো মেকানিকস",
+    lesson: 10,
+    duration: "3",
+    instractorName: instractor[7].name,
+    instractorphoto: instractor7,
+    price: 10000,
+  },
+  {
+    courseImg: course6,
+    courseImgalt: "Care",
+
+    tag: "Care Giving",
+    tagbg: "bg-pink-600",
+    title: "কেয়ার গিভিং চাইল্ড এন্ড ওল্ড",
+    lesson: 20,
+    duration: "6",
+    instractorName: instractor[9].name,
+    instractorphoto: instractor10,
+    price: 10000,
+  },
+  {
+    courseImg: course7,
+    courseImgalt: "Dress",
+
+    tag: "Dress Making",
+    tagbg: "bg-red-600",
+    title: "ড্রেস মেকিং এন্ড টেইলারিং",
+    lesson: 10,
+    duration: "3",
+    instractorName: instractor[8].name,
+    instractorphoto: instractor9,
+    price: 5000,
+  },
+  {
+    courseImg: course8,
+    courseImgalt: "Language",
+
+    tag: "Language",
+    tagbg: "bg-teal-600",
+    title: "স্পোকেন ইংলিশ",
+    lesson: 10,
+    duration: "3",
+    instractorName: instractor[4].name,
+    instractorphoto: instractor5,
+    price: 2900,
+  },
+
+  {
+    courseImg: course9,
+    courseImgalt: "korean",
+
+    tag: "Language",
+    tagbg: "bg-teal-600",
+    title: "কোরিয়ান ভাষা",
+    lesson: 10,
+    duration: "3",
+    instractorName: instractor[4].name,
+    instractorphoto: instractor5,
+    price: 15000,
+  },
+  {
+    courseImg: course10,
+    courseImgalt: "wiring",
+
+    tag: "Electrical",
+    tagbg: "bg-teal-600",
+    title: " ইলেকট্রিক্যাল হাউজ ওয়্যারিং",
+    lesson: 10,
+    duration: "3",
+    instractorName: instractor[6].name,
+    instractorphoto: instractor8,
+    price: 5000,
+  },
+];
